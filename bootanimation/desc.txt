@@ -1,0 +1,13 @@
+1080 1920 30
+p 1 0 part0
+p 1 0 part1
+p 1 0 part2
+p 1 0 part3
+p 1 0 part4
+p 1 0 part5
+p 1 0 part6
+p 1 0 part7
+p 1 0 part8
+p 1 0 part9
+p 1 0 part10
+p 0 0 part11
