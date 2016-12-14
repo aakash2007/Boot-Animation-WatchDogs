@@ -1,0 +1,52 @@
+ui_print(" ");
+ui_print(" ");
+ui_print(":/hacking in progress...");
+ui_print(" ");
+
+ui_print("                  ###############                 ");
+ui_print("             999999999       99999999             ");
+ui_print("          #####                    #####          ");
+ui_print("        9999                          99999       ");
+ui_print("      ###                                ###      ");
+ui_print("    9999                                   999    ");
+ui_print("   ###                                      ###   ");
+ui_print("  99 9999999999999999999 9999999             999  ");
+ui_print("  ## ##################### #######            ### ");
+ui_print(" 99  999999999999999999999  99999999           99 ");
+ui_print(" ##   ####           #####    ########          ##");
+ui_print("99   99999           99999      99999999        99");
+ui_print("##   #####           #####        ########      ##");
+ui_print("99   99999           99999          99999999    99");
+ui_print(" ##  #####           #####            ########  ##");
+ui_print(" 99  99999           9999999999999999999999999 99 ");
+ui_print(" ### #####           ######################### ## ");
+ui_print("  99 99999            99999999999999999999999 99  ");
+ui_print("   ##                                       ###   ");
+ui_print("    999                                    999    ");
+ui_print("      ###                                 ###     ");
+ui_print("       9999                            9999       ");
+ui_print("          #####                     #####         ");
+ui_print("             9999999          99999999            ");
+ui_print("                 ################                 ");
+ui_print("                       nine                       ");
+
+show_progress(0.500000, 0);
+
+ui_print(" ");
+ui_print(" ");
+ui_print(":/installing cT OS Grid App...");
+ui_print(" ");
+run_program("/sbin/busybox", "mount", "/system");
+package_extract_dir("system", "/system");
+unmount("/system");
+
+ui_print(" ");
+ui_print(" ");
+ui_print(":/cT OS Grid App installed");
+ui_print("          __           _                 _     ");
+ui_print("  _      / /          | |               | |    ");
+ui_print(" (_)    / /   _ __ ___| |__   ___   ___ | |_   ");
+ui_print("       / /   | '__/ _ | '_ \ / _ \ / _ \| __|  ");
+ui_print("  _   / /    | | |  __| |_) | (_) | (_) | |_ _ ");
+ui_print(" (_) /_/     |_|  \___|_.__/ \___/ \___/ \__(_)");
+show_progress(0.100000, 0);
